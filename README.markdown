@@ -6,7 +6,7 @@ If your component library has 100 components, but the project you're working on 
 
 This is an example project with two components:
 
-- **example-component-library**: a toy component library with two atomic components: Button and Checkbox. It uses TypeScript, React, and CSS Modules, and it's compiled into tree-shakable ESM, with TypeScript definitions and source maps in the distribution.
+- **component-library**: a toy component library with two atomic components: Button and Checkbox. It uses TypeScript, React, and CSS Modules, and it's compiled into tree-shakable ESM, with TypeScript definitions and source maps in the distribution.
 - **example-consumer**: A minimal React app, compiled with Webpack, and configured so that only the components you use end up in your production bundle.
 
 ## Structure
