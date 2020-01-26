@@ -10,10 +10,10 @@ const pkg = require('./package.json');
 
 module.exports = (env, argv) => {
   const { mode = 'development' } = argv;
-  const isProduction = true // mode === 'production';
+  const isProduction = mode === 'production';
 
   return {
-    mode: 'development',
+    mode,
     entry: './src/index.tsx',
     output: {
       path: path.resolve(__dirname, './dist')
