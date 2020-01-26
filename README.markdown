@@ -2,7 +2,7 @@
 
 Building a component library is hard, and a big part of that comes from the tooling needed to make it work.
 
-If your component library has 100 components, but the project you're working on only needs 3 or 4 of them, should you have to import all of the JavaScript and CSS for all of it? **no**.
+If your component library has 100 components, but the project you're working on only needs 3 or 4 of them, should you have to import the JavaScript and CSS for all of it? **No**.
 
 This is an example project with two components:
 
